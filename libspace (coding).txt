@@ -1,0 +1,17 @@
+# Simple Library Management
+
+books = ["Python", "Java", "HTML", "CSS"]
+
+print("Library Books:")
+for book in books:
+    print(book)
+
+add = input("Enter a book to add: ")
+books.append(add)
+
+print("\nUpdated Library Books:")
+for book in books:
+    print(book)
+
+
+
